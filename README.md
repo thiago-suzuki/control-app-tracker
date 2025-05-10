@@ -1,5 +1,5 @@
 # CONTROL APP TRACKER
-Aplicação de Rastreio e Consulta de Veículos com Google Maps
+Aplicação de Rastreio e Consulta de Veículos com Google Maps e Tanstack Query
 
 <h1 align="center">
   <img alt="Knight" title="Knights" width="700" src=".github/app.png" />
@@ -23,7 +23,7 @@ Aplicação de Rastreio e Consulta de Veículos com Google Maps
 - Pacote de Gerenciamento de Dependências: NPM
 - Framework: NextJS
 - Deploy: Vercel
-- Link Deploy:
+- Link Deploy: https://tracker-vehicles.vercel.app/
 
 <br>
 

@@ -27,7 +27,7 @@ export default function Home() {
   } = useQuery<GetVehiclesResponse>({
     queryKey: ["vehicles-filters", page, filter, type],
     queryFn: fetchVehicles,
-    refetchInterval: 10000
+    refetchInterval: 120000
   });
 
   async function fetchVehicles() {
@@ -58,6 +58,7 @@ export default function Home() {
   // Reseta a lista ao mudar o filtro ou tipo
   useEffect(() => {
     setPage(1)
+    setAllVehiclesLocated([])
     refetchData()
   }, [filter, type])
 
