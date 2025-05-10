@@ -10,7 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.8",
     "@react-google-maps/api": "^2.20.6",
     "@t3-oss/env-nextjs": "^0.13.4",
     "@tanstack/react-query": "^5.75.5",
